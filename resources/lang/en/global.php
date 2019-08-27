@@ -45,6 +45,7 @@ return [
     'logout'                               => 'Logout',
     'calendar'                             => 'Calendar',
     'dashboard'                            => 'Dashboard',
+    'administration'                       => 'Administration',
     'datatables'                           => [
         'copy'          => 'Copy',
         'csv'           => 'CSV',
@@ -351,6 +352,27 @@ return [
             'updated_at_helper'  => '',
             'deleted_at'         => 'Deleted at',
             'deleted_at_helper'  => '',
+        ],
+    ],
+    'employe'                              => [
+        'title'          => 'Employe',
+        'title_singular' => 'Employe',
+        'fields'         => [
+            'id'                 => 'ID',
+        ],
+    ],
+    'news'                              => [
+        'title'          => 'News',
+        'title_singular' => 'News',
+        'fields'         => [
+            'id'                 => 'ID',
+        ],
+    ],
+    'notice'                              => [
+        'title'          => 'Notice',
+        'title_singular' => 'Notice',
+        'fields'         => [
+            'id'                 => 'ID',
         ],
     ],
 ];

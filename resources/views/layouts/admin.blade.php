@@ -61,7 +61,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-            <span class="navbar-brand-full">Management</span>
+            <span class="navbar-brand-full">Admin Panel</span>
             <span class="navbar-brand-minimized">M</span>
         </a>
         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
