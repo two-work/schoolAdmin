@@ -1,9 +1,9 @@
 <?php
-Route::get('/', function () {
-    return view('welcome');
-});
-// Route::redirect('/', '/schoolAdmin/login');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::redirect('/', '/schoolAdmin/login');
 Route::redirect('/home', '/schoolAdmin/admin');
 
 Auth::routes(['register' => false]);

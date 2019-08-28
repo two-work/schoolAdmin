@@ -56,7 +56,7 @@
             <!-- Profile End -->
             <!-- Employe Start -->
             <li class="nav-item">
-                <a href="{{ route("admin.products.index") }}" class="nav-link  request()->is('admin/products') || request()->is('admin/products/*') ? 'active' : '' ">
+                <a href="{{ url('employe') }}" class="nav-link  request()->is('employe') || request()->is('employe/*') ? 'active' : '' ">
                     <i class="fas fa-cogs nav-icon">
 
                     </i>
@@ -66,7 +66,7 @@
             <!-- Employe End -->
             <!-- News Start -->
             <li class="nav-item">
-                <a href="{{ route("admin.products.index") }}" class="nav-link  request()->is('admin/products') || request()->is('admin/products/*') ? 'active' : '' ">
+                <a href="{{ url('news') }}" class="nav-link  request()->is('news') || request()->is('news/*') ? 'active' : '' ">
                     <i class="fas fa-cogs nav-icon">
 
                     </i>

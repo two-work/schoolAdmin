@@ -8,6 +8,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ trans('global.site_title') }}</title>
+
+    @stack('css')
     <link rel="stylesheet" type="text/css" href="{{asset('css/css/https _stackpath.bootstrapcdn.com_bootstrap_4.1.3_css_bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/css/https _cdnjs.cloudflare.com_ajax_libs_font-awesome_4.7.0_css_font-awesome.css')}}">
     <!-- <link rel="stylesheet" type="text/css" href="{{asset('css/css/https _use.fontawesome.com_releases_v5.2.0_css_all.css')}}"> -->
@@ -34,7 +36,9 @@
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css" rel="stylesheet" /> -->
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet" />
 
+
     @yield('styles')
+
 
 <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('public/img/favicon/apple-icon-57x57.png') }}">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('public/img/favicon/apple-icon-60x60.png') }}">
@@ -101,10 +105,11 @@
             {{ csrf_field() }}
         </form>
     </div>
-    <script src="{{ asset('js/js/http _cdn.datatables.net_1.10.19_js_jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('js/js/https _cdnjs.cloudflare.com_ajax_libs_jquery_3.3.1_jquery.min.js') }}"></script>
     <script src="{{ asset('js/js/https _stackpath.bootstrapcdn.com_bootstrap_4.1.1_js_bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/js/https _cdnjs.cloudflare.com_ajax_libs_popper.js_1.14.3_umd_popper.min.js') }}"></script>
+    <script src="{{ asset('js/js/http _cdn.datatables.net_1.10.19_js_jquery.dataTables.min.js') }}"></script>
+    
     <script src="{{ asset('js/js/https _unpkg.com_@coreui_coreui@2.1.12_dist_js_coreui.min.js') }}"></script>
     <script src="{{ asset('js/js/https _cdn.datatables.net_1.10.19_js_dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{ asset('js/js/http _cdn.datatables.net_buttons_1.2.4_js_dataTables.buttons.min.js') }}"></script>

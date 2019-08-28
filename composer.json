@@ -13,6 +13,8 @@
         "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
         "glhd/aire": "^1.6",
+        "glhd/aire-bootstrap": "^0.0.1",
+        "glhd/aire-tailwind-custom-forms": "^0.1.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "nwidart/laravel-modules": "^5.0",
